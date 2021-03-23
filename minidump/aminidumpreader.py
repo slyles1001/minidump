@@ -5,8 +5,8 @@
 #
 import struct
 import ntpath
-from .common_structs import *
-from .streams.SystemInfoStream import PROCESSOR_ARCHITECTURE
+from minidump.common_structs import *
+from minidump.streams.SystemInfoStream import PROCESSOR_ARCHITECTURE
 
 class AMinidumpBufferedMemorySegment:
 	def __init__(self):
