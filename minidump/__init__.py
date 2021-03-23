@@ -2,21 +2,6 @@ name = "minidump"
 __all__=[
     "streams",
     "utils",
-    "AsyncFile",
-    "AMinidumpFile",
-    "AMinidumpBufferedMemorySegment",
-    "AMinidumpBufferedReader",
-    "AMinidumpFileReader",
-    "MINIDUMP_LOCATION_DESCRIPTOR",
-    "MINIDUMP_LOCATION_DESCRIPTOR64",
-    "MinidumpMemorySegment",
-    "hexdump",
-    "construct_table",
-    "MINIDUMP_STREAM_TYPE",
-    "MINIDUMP_TYPE",
-    "MINIDUMP_DIRECTORY",
-    "MinidumpHeader",
-    "MinidumpFile",
 ]
 
 from aminidumpfile import (
